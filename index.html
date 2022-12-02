@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <title>Survey Form by Zenny</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="surveyHeader">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">A form made by Zenny</p>  
+    </div>
+    <div class="surveyForm">
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Enter your name:</label>
+          <input type="text" placeholder="Enter your name here" id="name" required name="name" required />
+          <label id="email-label" for="email">Enter your email:</label>
+          <input type="email" required name="email" id="email" placeholder="Enter your email here" />
+          <label id="number-label" for="number">Enter your age:</label>
+          <input type="number" required name="number" placeholder="Enter your age here" min="16" max="120" id="number"/>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">What is your profession?
+            <select id="dropdown" name="dropdown" required>
+              <option>(Select one)</option>
+              <option>Full-Time Student</option>
+              <option>Unemployed</option>
+            </select>
+          </label>
+          <label for="surveyRadio"> Are you enjoying your journey with freeCodeCamp?<br> 
+            <input type="radio" required value="yes" id="surveyRadio" name="surveyRadio" /> Yes<br>
+            <input type="radio" required value="yes" id="surveyRadio" name="surveyRadio"/> No<br>
+            <input type="radio" required value="yes" id="surveyRadio" name="surveyRadio"/> Maybe
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="suggestionBox">Please leave your suggestions below:<textarea></textarea></label>
+        </fieldset>
+        <fieldset>
+          <label for="surveyCheckbox"> Do you accept the terms and services?<br> 
+            <input type="checkbox" required value="yes" id="surveyRadio" name="surveyCheckbox" />Yes<br>
+            <input type="checkbox" required value="yes" id="surveyRadio" name="surveyCheckbox"/>No<br>
+          </label>
+        </fieldset>
+        <div class="center">
+          <input type="submit" id="submit" value="Submit"></div>
+      </form>
+    </div>
+  </body>
+</html>
