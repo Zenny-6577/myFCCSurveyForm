@@ -1,0 +1,104 @@
+body {
+    background-color: #1b1b32;
+    padding: 5% 0;
+  }
+  
+  hr {
+    max-width: 75%;
+    min-width: 50%;
+  }
+  
+  .surveyHeader {
+    text-align: center;
+    color: white;
+    font-family: Sans-Serif;
+  }
+  
+  .surveyForm form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 5px;
+  }
+  
+  fieldset {
+    font-size: 1.1rem;
+    margin: auto;
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  .surveyForm label {
+    color: white;
+    font-family: tahoma;
+    display: block;
+    margin: 0.5em 0;
+  }
+  
+  .surveyForm input[type="text"], input[type="email"], input[type="number"], select {
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    min-height: 2.5em;
+    width: 100%;
+    transition: 0.3s;
+    font-size: 1.1rem;
+  }
+  
+  .surveyForm input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover, select:hover {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+  }
+  
+  .surveyForm input[type="radio"]{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .surveyForm textarea {
+    margin: 10px 0 0 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    min-height: 10em;
+    width: 100%;
+    transition: 0.3s;
+    font-family: Tahoma;
+  }
+  
+  .surveyForm textarea:hover {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+  }
+  
+  .surveyForm input[type="submit"] {
+    padding: 1.5rem;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(0,0,0,0);
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .surveyForm input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .surveyForm input[type="submit"]:active {
+    background-color: grey;
+    color: black;
+    border: 1px solid black
+  }
+  
+  .center {
+    text-align: center;
+  }
